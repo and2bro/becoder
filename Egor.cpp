@@ -55,7 +55,7 @@ int main() {
 
 	printf("%i", FF);
 	getchar();
-	return FF;
+	return 0;
 }
 
 
@@ -65,7 +65,7 @@ void stringreader(char* string){
 	int ffnum = 0;
 	int counter = 0;
 	if (string[i] == '\0') return;
-	while (string[i] != '\0')//пока не перевод строки
+	while (string[i] != '\0')//ГЇГ®ГЄГ  Г­ГҐ ГЇГҐГ°ГҐГўГ®Г¤ Г±ГІГ°Г®ГЄГЁ
 	{
 		if (string[i] == '\0')return;
 		if (string[i] == ' ') i++;
